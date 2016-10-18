@@ -6,4 +6,4 @@ Tutorial is available [here](https://www.gitbook.com/book/theimowski/suave-music
 Note: this version is modified by Tonino Lucca, to run with PostgreSQL 9.6.0 (instead of Microsoft Sql Server/Express)
 
 tested under Mac os X Sierra, Mono 4.6
-(you may have to modify slightly the script.sql and DB.fs files)
+(you may have to slightly modify the script.sql and DB.fs files)
