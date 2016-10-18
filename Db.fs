@@ -10,8 +10,7 @@ let [<Literal>] dbVendor = Common.DatabaseProviderTypes.POSTGRESQL
 let [<Literal>] connString = "Server=localhost;Database=SuaveMusicStore;User Id=postgres"
 let [<Literal>] connexStringName = "DefaultConnectionString"
 
-//let [<Literal>] resPath = @"/Users/Tonyx/Projects/SuaveMusicStore/SuaveMusicStore/packages/Npgsql.3.1.8/lib/net451"
-let [<Literal>] resPath = @"/Users/Tonyx/bin/npgsqldir"
+let [<Literal>] resPath = @"/Users/Tonyx/bin/npgsqldir" // location of Npgsql.dll 
  
 let [<Literal>] indivAmount = 1000
 
@@ -162,7 +161,6 @@ let newUser (username, password, email) (ctx : DbContext) =
 
 let placeOrder (username : string) (ctx : DbContext) =
     let carts = getCartsDetails  username ctx
-    //let total = carts |> List.sumBy (fun c -> (decimal) c.Count * c.Price)
     let total = carts |> List.sumBy (fun c ->  (decimal) c.Count * c.Price)
     let order = ctx.Public.Orders.Create(DateTime.UtcNow, total)
     order.Username <- username
