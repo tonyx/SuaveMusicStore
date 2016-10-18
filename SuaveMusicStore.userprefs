@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{55A87122-250E-4CD8-96E2-70EDFBFAEFE5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Db.fs">
+    <Files>
+      <File FileName="Db.fs" Line="27" Column="51" />
+      <File FileName="View.fs" Line="1" Column="1" />
+      <File FileName="App.fs" Line="1" Column="1" />
+      <File FileName="Site.css" Line="1" Column="1" />
+      <File FileName="Path.fs" Line="1" Column="1" />
+      <File FileName="Form.fs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SuaveMusicStore PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
