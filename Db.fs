@@ -16,7 +16,6 @@ let [<Literal>] indivAmount = 1000
 
 let [<Literal>] useOptTypes  = false
 
-let [<Literal>]  newConnString= "postgres@localhost/postgres"
 
 
 type Sql =
